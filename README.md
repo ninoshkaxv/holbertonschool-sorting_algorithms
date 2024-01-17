@@ -37,11 +37,18 @@ Welcome! This repository contains C implementations of classic sorting algorithm
 2. **Selection Sort**
    - Function: `void selection_sort(int *array, size_t size);`
    - Visualization: <img src="https://github.com/ninoshkaxv/TEST/assets/143634181/f58e6564-bafa-42d1-8e83-3ac3b4bf4e8e" width="400" height="170">
+   - Time Complexity:
+     - Best Case: O(n^2)
+     - Average Case: O(n^2)
+     - Worst Case: O(n^2)
 
 3. **Quick Sort**
    - Function: `void quick_sort(int *array, size_t size);`
    - Visualization: <img src="https://github.com/ninoshkaxv/TEST/assets/143634181/186fd4bd-910c-48f6-a320-71c4f53304ff" width="400" height="170">
-
+   - Time Complexity:
+     - Best Case: O(n log n)
+     - Average Case: O(n log n)
+     - Worst Case: O(n^2)
 ## Compilation and Testing
 
 To compile the code, use the provided compilation flags:
