@@ -1,4 +1,4 @@
-gcc -Wall -Wextra -Werror -pedantic 2-main.c 2-selection_sort.c print_array.c -o select#include "sort.h"
+#include "sort.h"
 
 /** 
  * Selection_sort - sort an array
