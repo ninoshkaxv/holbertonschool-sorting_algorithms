@@ -17,35 +17,14 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-/**
- * print_array - Prints an array of integers
- *
- * @array: The array to be printed
- * @size: Number of elements in @array
- */
+/* Print functions */
 void print_array(const int *array, size_t size);
-
-/**
- * print_list - Prints a list of integers
- *
- * @list: The list to be printed
- */
 void print_list(const listint_t *list);
 
-/**
- * bubble_sort - Sorts an array of integers in ascending order using
- *               the Bubble sort algorithm.
- * @array: The array to be sorted
- * @size: Number of elements in the array
- */
+/* Sorting algorithm */
 void bubble_sort(int *array, size_t size);
-
-/**
- * insertion_sort_list - Sorts a doubly linked list of integers in
- *                       ascending order using the Insertion sort algorithm.
- * @list: Pointer to the head of the doubly linked list
- */
 void insertion_sort_list(listint_t **list);
+void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
 #endif /* SORT_H */
-
