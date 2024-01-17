@@ -2,7 +2,6 @@
 
 /** 
  * Selection_sort - sort an array
- * algorithm
  * @array: array of integers to be sorted
  * @size: amount of elements in array
  */
@@ -37,4 +36,3 @@ void selection_sort(int *array, size_t size)
 		}
 	}
 }
-*/
