@@ -1,4 +1,5 @@
-![github-header-image(4)](https://github.com/ninoshkaxv/holbertonschool-sorting_algorithms/assets/143634181/11ffa976-9af2-4b90-b357-6d429eaeca34)
+![github-header-image(5)](https://github.com/ninoshkaxv/TEST/assets/143634181/1d7317fc-79f7-43bb-8ec6-a6f33d52071e)
+
 
 # Sorting Algorithms
 
@@ -58,5 +59,5 @@ gcc -Wall -Wextra -Werror -pedantic *.c -o sorting_algorithms
 ```
 
 ## Authors
-- Aramis Martinez
 - Ninoshka Perez
+- Aramis Martinez
