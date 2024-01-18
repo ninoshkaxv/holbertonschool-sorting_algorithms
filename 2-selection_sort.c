@@ -1,6 +1,6 @@
 #include "sort.h"
 
-/** 
+/**
  * Selection_sort - sort an array
  * @array: array of integers to be sorted
  * @size: amount of elements in array
